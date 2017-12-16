@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a03"
+    tools:context="layout.Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/background_light" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center"
+        android:background="@drawable/a03">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:src="@drawable/b"
+                android:id="@+id/imageView2"
+                android:layout_gravity="center_horizontal|bottom" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="840dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:inputType="none"
+                android:text="                             ABOUT                                      I am Bhavesh, an enthusiastic student and a keen learner. Started m journey with very less ambitions and in the path, I have modified myself to find what is best for me. My intrests lies within most fields of computer science and its applications. My life has not been simple and straight forward but my perseverance and dedication has led me to this place today. My nature urges me not to stop at any time and keep going until I reach my apex in that field. Every failure and hardship is a lesson and not a stepback which I try to correct afterwards.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         "
+                android:id="@+id/textView"
+                android:layout_gravity="center"
+                android:textColor="@android:color/background_light" />
+        </FrameLayout>
+    </ScrollView>
+
+</FrameLayout>

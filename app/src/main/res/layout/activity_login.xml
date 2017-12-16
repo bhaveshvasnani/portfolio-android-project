@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="bhavesh.app3.LoginActivity"
+    android:visibility="visible"
+    android:background="@drawable/a05"
+    android:weightSum="1">
+
+    <TextView
+        android:text="“It’s Not Whether You Get Knocked Down, It’s Whether You Get Up.”- Vince Lombardi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/textView2"
+        android:fontFamily="cursive"
+        android:layout_weight="0.18" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/bhavesh_icon1"
+        android:id="@+id/imageView"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.64" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="@string/email"
+        android:imeOptions="actionNext"
+        android:id="@+id/editText1" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:hint="@string/pswd"
+        android:imeOptions="actionNone"
+        android:id="@+id/editText2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/bsign" />
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New User? Register here"
+    android:onClick="goToregister"
+    android:id="@+id/breg" />
+
+</LinearLayout>

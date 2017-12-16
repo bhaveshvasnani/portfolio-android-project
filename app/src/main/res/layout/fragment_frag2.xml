@@ -1,0 +1,43 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a03"
+    tools:context="layout.frag2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_gravity="center"
+        android:background="@drawable/a03" >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="371dp"
+                android:id="@+id/editText"
+                android:layout_gravity="center_horizontal|bottom"
+                android:text="                                   INTERESTS                                          My intrests are not restricted to limited areas but are widely diverse. I enjoy learning new technical languages and apply them, also some foreign languages. Photography is something I cannot leave behind and always try to click amazing photos depicting minimmalism or abstraction. I am highly intrested in travelling to new places and explore them. My interest towards sports especially basketball is also commendable. I have aalways tried to work only in the areas where I am interested to work so that I can do tasks with full passion. Also I am a tecch savy peerson so I search about and analyze all the new gadgets that come to the market. Apart from all these, I am interested to build my own start up which could make me more independent in life. My interests do change and as soon as I see something that attracts me, I could not resist myself from doing it."
+                android:textSize="@dimen/abc_action_bar_icon_vertical_padding_material"
+                android:editable="false"
+                android:inputType="none"
+                android:textColor="?android:attr/colorForegroundInverse" />
+
+        </FrameLayout>
+    </ScrollView>
+
+    <ImageView
+        android:layout_width="247dp"
+        android:layout_height="158dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/c"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="45dp"/>
+
+</FrameLayout>

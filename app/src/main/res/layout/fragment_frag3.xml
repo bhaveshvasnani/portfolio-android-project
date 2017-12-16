@@ -1,0 +1,70 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.frag3"
+    android:background="@drawable/a03">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageButton"
+        android:src="@drawable/a1"
+        android:scaleType="fitCenter"
+        android:layout_gravity="left|center_vertical"
+    />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/a2"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center" />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageButton3"
+        android:src="@drawable/a3"
+        android:scaleType="fitCenter"
+        android:layout_gravity="right|center_vertical" />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageButton4"
+        android:src="@drawable/a4"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="left|bottom" />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:id="@+id/imageButton5"
+        android:src="@drawable/a5"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageButton
+        android:layout_width="117dp"
+        android:layout_height="115dp"
+        android:src="@drawable/a6"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/imageButton6"
+        android:layout_gravity="right|bottom" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:src="@drawable/d"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal|top" />
+
+</FrameLayout>
